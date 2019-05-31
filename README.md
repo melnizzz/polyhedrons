@@ -5,6 +5,17 @@ This programm can build the polyhedron using its nodes or equations of its faces
 
 The programm works with input data in files.
 
+HOW TO START THE PROGRAMM:
+You should start the programm in your cmd with
+1. the path to the programm
+2. the path to the file
+3.(optional) the path to the second file
+
+Example: 
+-> polyhedrons.exe a.txt
+ or
+-> polyhedrons.exe f1.txt f2.txt
+
 1. To build the polyhedron using its nodes you should use this type of file:
 
   V            //special symbol
