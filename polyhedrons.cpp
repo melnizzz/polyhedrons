@@ -818,14 +818,14 @@ void main(int argc,  char *argv[])
 	//Check the count of arguments
 	if(!(File1 = fopen(argv[1], "rt")))
 	{
-		printf("Ошибка открытия файла.\n"); 
+		printf("ГЋГёГЁГЎГЄГ  Г®ГІГЄГ°Г»ГІГЁГї ГґГ Г©Г«Г .\n"); 
 		return; 
 	}
 	if (argc > 2)
 	{
 		if(!(File2 = fopen(argv[2], "rt")))
 		{
-			printf("Ошибка открытия файла.\n"); 
+			printf("ГЋГёГЁГЎГЄГ  Г®ГІГЄГ°Г»ГІГЁГї ГґГ Г©Г«Г .\n"); 
 			return; 
 		}
 		CollDet(File1,  File2); 
